@@ -245,14 +245,16 @@ body::before {
   overflow: hidden;
 }
 .hero-name .glitch::before {
-  color: var(--accent-purple);
+  color: var(--accent-cyan);
   animation: glitch-before 4s infinite;
   clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+  opacity: 0.5;
 }
 .hero-name .glitch::after {
-  color: var(--accent-gold);
+  color: var(--accent-cyan);
   animation: glitch-after 4s infinite;
   clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+  opacity: 0.5;
 }
 
 @keyframes glitch-text {
