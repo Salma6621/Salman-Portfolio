@@ -122,16 +122,18 @@ body::before {
 .nav-links a:hover::after { width: 100%; }
 
 .nav-cta {
-  padding: 0.45rem 1.2rem;
-  border: 1px solid var(--accent-purple);
+  padding: 0.5rem 1.25rem;
+  border: 1px solid var(--accent-cyan);
   border-radius: 6px;
-  color: var(--accent-purple-light) !important;
+  color: var(--accent-cyan) !important;
   transition: var(--transition) !important;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 245, 255, 0.3);
 }
 .nav-cta:hover {
-  background: var(--accent-purple) !important;
-  color: #fff !important;
-  box-shadow: var(--glow-purple) !important;
+  background: var(--accent-cyan) !important;
+  color: #07070f !important;
+  box-shadow: var(--glow-cyan) !important;
 }
 .nav-cta::after { display: none !important; }
 
